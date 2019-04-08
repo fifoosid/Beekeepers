@@ -32,6 +32,7 @@ class App extends Component {
 					secondary-title={this.state.displayDate}
 					logo={logo}
 					profile={profileImage}
+					show-product-switch
 				>
 					<ui5-input data-ui5-slot="searchField"></ui5-input>
 
@@ -44,14 +45,11 @@ class App extends Component {
 					<ui5-tab text="Home">
 						<Home></Home>
 					</ui5-tab>
-					<ui5-tab text="Team Distribution">
-						<ui5-label>Quibusdam, veniam! Architecto debitis iusto ad et, asperiores quisquam perferendis reprehenderit ipsa voluptate minus minima, perspiciatis cum. Totam harum necessitatibus numquam voluptatum.</ui5-label>
+					<ui5-tab disabled text="Team Distribution">
 					</ui5-tab>
-					<ui5-tab text="Drone Maintanance">
-						<ui5-label>Quibusdam, veniam! Architecto debitis iusto ad et, asperiores quisquam perferendis reprehenderit ipsa voluptate minus minima, perspiciatis cum. Totam harum necessitatibus numquam voluptatum.</ui5-label>
+					<ui5-tab disabled text="Drone Maintanance">
 					</ui5-tab>
-					<ui5-tab text="Drone Development">
-						<ui5-label>Quibusdam, veniam! Architecto debitis iusto ad et, asperiores quisquam perferendis reprehenderit ipsa voluptate minus minima, perspiciatis cum. Totam harum necessitatibus numquam voluptatum.</ui5-label>
+					<ui5-tab disabled text="Drone Development">
 					</ui5-tab>
 				</ui5-tabcontainer>
 			</div>

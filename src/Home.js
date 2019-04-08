@@ -28,6 +28,7 @@ import Case_2 from './assets/images/Case2.png';
 import Case_3 from './assets/images/Case3.png';
 import chart1 from './assets/images/chart1.png';
 import chart2 from './assets/images/chart2.png';
+import Carousel1 from './assets/images/Carousel1.png';
 
 class Home extends Component {
 
@@ -49,7 +50,7 @@ class Home extends Component {
             <div className="grid-container">
             {/* First line of Cads */}
                 <ui5-card
-                class="grid-4-columns"
+                class="grid-4-columns first-row-cards-height"
                 heading="Schedule for today"
                 subtitle={this.state.time}
                 status="3 of 3"
@@ -102,7 +103,7 @@ class Home extends Component {
                                     <ui5-title level="H5">Teico Inc.</ui5-title>
                                     <ui5-label>Sun Valley, Idaho</ui5-label>
                                 </div>
-                                <div className="counter">2456</div>
+                                <div className="counter red-label">2456</div>
                             </div>
                         </ui5-li-custom>
                         <ui5-li-custom>
@@ -114,7 +115,7 @@ class Home extends Component {
                                     <ui5-title level="H5">Freshhh LTD.</ui5-title>
                                     <ui5-label>Dayville, Oregon</ui5-label>
                                 </div>
-                                <div className="counter">1263</div>
+                                <div className="counter orange-label">1263</div>
                             </div>
                         </ui5-li-custom>
                         <ui5-li-custom>
@@ -235,6 +236,75 @@ class Home extends Component {
                             </div>
                         </ui5-li-custom>
                     </ui5-list>
+                </ui5-card>
+            
+                <ui5-title class="grid-16-columns">Employee Services</ui5-title>
+                {/* Fourth line of Cards */}
+                <ui5-card
+                class="grid-3-columns"
+                heading="Most Frequently Used"
+                status="7 of 28"
+                >
+                    <ui5-list>
+                    <ui5-li icon="sap-icon://home" type="Active">Work From Home</ui5-li>
+                    <ui5-li icon="sap-icon://general-leave-request" type="Active">Time &amp; Vacation</ui5-li>
+                    <ui5-li icon="sap-icon://travel-expense" type="Active">Travel Expense</ui5-li>
+                    <ui5-li icon="sap-icon://headset" type="Active">IT Direct</ui5-li>
+                    <ui5-li icon="sap-icon://monitor-payments" type="Active">Compensation</ui5-li>
+                    <ui5-li icon="sap-icon://activity-individual" type="Active">Activity Recording</ui5-li>
+                    </ui5-list>
+                </ui5-card>
+
+                <div class="grid-6-columns nested-grid-container">
+                    <ui5-card
+                    class="nested-grid-3-columns"
+                    avatar="sap-icon://employee"
+                    heading="I &amp; Drone Hive"
+                    subtitle="Understand our strategy"
+                    ></ui5-card>
+                    <ui5-card
+                    class="nested-grid-3-columns"
+                    avatar="sap-icon://shield"
+                    heading="Security"
+                    subtitle="Master digital safety"
+                    ></ui5-card>
+                    <ui5-card
+                    class="nested-grid-3-columns"
+                    avatar="sap-icon://cart"
+                    heading="Order &amp; Purchasing"
+                    subtitle="Buy hardware"
+                    ></ui5-card>
+                    <ui5-card
+                    class="nested-grid-3-columns"
+                    avatar="sap-icon://building"
+                    heading="Facility"
+                    subtitle="Handle your workplace"
+                    ></ui5-card>
+                    <ui5-card
+                    class="nested-grid-3-columns"
+                    avatar="sap-icon://laptop"
+                    heading="IT Services"
+                    subtitle="Manage software"
+                    ></ui5-card>
+                    <ui5-card
+                    class="nested-grid-3-columns"
+                    avatar="sap-icon://collaborate"
+                    heading="HR &amp; Cross Topics"
+                    subtitle="Get help"
+                    ></ui5-card>
+                    <ui5-card
+                    class="nested-grid-3-columns"
+                    avatar="sap-icon://suitcase"
+                    heading="Travel"
+                    subtitle="Organize business trip"
+                    ></ui5-card>
+                </div>
+                <ui5-card
+                heading="Drone Hive pioneers crops pollination"
+                subtitle="by New Scientist"
+                class="grid-4-columns"
+                >
+                    <img src={Carousel1}></img>
                 </ui5-card>
             </div>
         );
