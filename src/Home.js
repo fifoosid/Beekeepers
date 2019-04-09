@@ -64,7 +64,7 @@ class Home extends Component {
                         </ui5-timeline>
                     </ui5-card>
                 </div>
-                <div className="flex-basis-3">
+                <div className="flex-basis-3 hide-at-830px">
                     <ui5-card
                     heading="Donna Mendez"
                     subtitle="Managing Partner"
@@ -86,7 +86,7 @@ class Home extends Component {
                         </div>
                     </ui5-card>
                 </div>
-                <div className="flex-basis-7">
+                <div className="flex-basis-7 hide-at-1240px">
                     <CardMap></CardMap>
                 </div>
 
@@ -137,7 +137,7 @@ class Home extends Component {
                         </ui5-list>
                     </ui5-card>
                 </div>
-                <div className="flex-basis-4">
+                <div className="flex-basis-4 hide-at-830px">
                     <ui5-card
                     heading="Teico Inc."
                     subtitle="Sudden storm wind damaged 3 polinating hives"
@@ -151,7 +151,7 @@ class Home extends Component {
                         </ui5-list>
                     </ui5-card>
                 </div>
-                <div className="flex-basis-4">
+                <div className="flex-basis-4 hide-at-830px">
                     <ui5-card
                     heading="Freshhh LTD."
                     subtitle="Electric shock while charging"
@@ -164,7 +164,7 @@ class Home extends Component {
                         </ui5-list>
                     </ui5-card>
                 </div>
-                <div className="flex-basis-4">
+                <div className="flex-basis-4 hide-at-830px">
                     <ui5-card
                     heading="Lean Pulp"
                     subtitle="Software update Issues"
@@ -188,7 +188,7 @@ class Home extends Component {
                         </div>
                     </ui5-card>
                 </div>
-                <div className="flex-basis-4">
+                <div className="flex-basis-4 hide-at-1240px">
                     <ui5-card
                     heading="Weather failures"
                     >
@@ -266,7 +266,7 @@ class Home extends Component {
                         </ui5-list>
                     </ui5-card>
                 </div>
-                <div class="flex-basis-6 nested-flex-container">
+                <div class="flex-basis-6 nested-flex-container hide-at-1240px">
                     <ui5-card
                     class="nested-flex-item"
                     avatar="sap-icon://employee"
@@ -310,7 +310,7 @@ class Home extends Component {
                     subtitle="Organize business trip"
                     ></ui5-card>
                 </div>
-                <div className="flex-basis-4">
+                <div className="flex-basis-4 hide-at-830px">
                     <ui5-card
                     heading="Drone Hive pioneers crops pollination"
                     subtitle="by New Scientist"
