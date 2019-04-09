@@ -1,50 +1,60 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-column-gap: 1em;
-    grid-row-gap: 2rem;
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.grid-first-in-column {
-    grid-column-start: 1;
+.flex-container > div{
+    margin: .5rem;
 }
 
-.grid-3-columns {
-    grid-column-end: span 3;
+.section-header {
+    margin: 1rem 1rem .5rem 1rem;
 }
 
-.grid-4-columns {
-    grid-column-end: span 4;
+/* 16 columns of the grid */
+.flex-basis-full {
+    flex-basis: 100%;
 }
 
-.grid-5-columns {
-    grid-column-end: span 5;
+/* 3 columns of the grid */
+.flex-basis-3 {
+    flex-basis: 15%;
 }
 
-.grid-6-columns {
-    grid-column-end: span 6;
+/* 4 columns of the grid */
+.flex-basis-4 {
+    flex-basis: 24%;
 }
 
-.grid-7-columns {
-    grid-column-end: span 7;
+/* 5 columns of the grid */
+.flex-basis-5 {
+    flex-basis: 30%
 }
 
-.grid-16-columns {
-    grid-column-end: span 16;
+/* 6 columns of the grid */
+.flex-basis-6 {
+    flex-basis: 36%
 }
 
-.first-row-cards-height {
-    height: 395px;
+/* 7 columns of the grid */
+.flex-basis-7 {
+    flex-basis: 45%;
+}
+
+.nested-flex-item {
+    flex-basis: calc((100% - 1rem) / 2);
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+.nested-flex-item:nth-child(odd) {
+    margin-right: 1rem;
 }
 
 .flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.personal-card {
-    height: 320px;
 }
 
 .card-content {
@@ -146,13 +156,8 @@
     padding: 0 1rem;
 }
 
-.nested-grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-column-gap: 1em;
-    grid-row-gap: 1rem;
-}
-
-.nested-grid-3-columns {
-    grid-column-end: span 3;
+.nested-flex-container {
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
 }

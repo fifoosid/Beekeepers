@@ -30,7 +30,7 @@ class CardMap extends Component {
     render() {
         return (
             <ui5-card
-            class="grid-7-columns first-row-cards-height"
+            class="flex-basis-7"
             heading="Site Visit - Peach Valley"
             >
                 <div className="map-card-content">
