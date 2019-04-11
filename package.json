@@ -2,6 +2,7 @@
   "name": "fiori3-sample-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.wdf.sap.corp/pages/ui5-webcomponents/fiori3-sample-app",
   "dependencies": {
     "@ui5/webcomponents": "^0.9.0",
     "mapbox-gl": "^0.53.1",
