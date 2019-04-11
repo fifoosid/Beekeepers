@@ -11,12 +11,9 @@ import '@ui5/webcomponents/dist/Timeline';
 import '@ui5/webcomponents/dist/TimelineItem';
 import '@ui5/webcomponents/dist/Title';
 
-import donna from './assets/images/Avatar_3.png'
-
 import Avatar_1 from './assets/images/Avatar_1.png';
 import Avatar_2 from './assets/images/Avatar_2.png';
 import Avatar_3 from './assets/images/Avatar_3.png';
-import Avatar_4 from './assets/images/Avatar_4.png';
 import Avatar_5 from './assets/images/Avatar_5.png';
 import Avatar_6 from './assets/images/Avatar_6.png';
 import Avatar_7 from './assets/images/Avatar_7.png';
@@ -68,7 +65,7 @@ class Home extends Component {
                     <ui5-card
                     heading="Donna Mendez"
                     subtitle="Managing Partner"
-                    avatar={donna}
+                    avatar={Avatar_3}
                     >
                         <div className="card-content">
                             <ui5-title class="padding-bottom">Peach Valley Inc.</ui5-title>
@@ -101,7 +98,7 @@ class Home extends Component {
                             <ui5-li-custom>
                                 <div className="firms-list">
                                     <div className="firms-list-item negative-border">
-                                        <img src={Case_1} className="image"></img>
+                                        <img src={Case_1} className="image" alt="avatar"></img>
                                     </div>
                                     <div className="main-info">
                                         <ui5-title level="H5">Teico Inc.</ui5-title>
@@ -113,7 +110,7 @@ class Home extends Component {
                             <ui5-li-custom>
                                 <div className="firms-list">
                                     <div className="firms-list-item warning-border">
-                                        <img src={Case_2} className="image"></img>
+                                        <img src={Case_2} className="image" alt="avatar"></img>
                                     </div>
                                     <div className="main-info">
                                         <ui5-title level="H5">Freshhh LTD.</ui5-title>
@@ -125,7 +122,7 @@ class Home extends Component {
                             <ui5-li-custom>
                                 <div className="firms-list">
                                     <div className="firms-list-item">
-                                        <img src={Case_3} className="image"></img>
+                                        <img src={Case_3} className="image" alt="avatar"></img>
                                     </div>
                                     <div className="main-info">
                                         <ui5-title level="H5">Lean Pulp</ui5-title>
@@ -146,7 +143,7 @@ class Home extends Component {
                         <ui5-list separators="None">
                             <ui5-li image={Avatar_1} type="Active" description="On Site">Alain Chevalier</ui5-li>
                             <ui5-li image={Avatar_2} type="Active" description="Travelling to Idaho">Yolanda Barrueco</ui5-li>
-                            <ui5-li image={Avatar_3} type="Active" description="Travelling to Idaho">Arend Pellewever</ui5-li>
+                            <ui5-li image={Avatar_9} type="Active" description="Travelling to Idaho">Arend Pellewever</ui5-li>
                             <ui5-li image={Avatar_5} type="Active" description="Headquaters Support">Henry Richardson</ui5-li>
                         </ui5-list>
                     </ui5-card>
@@ -159,7 +156,7 @@ class Home extends Component {
                     >
                         <ui5-list separators="None">
                             <ui5-li image={Avatar_6} type="Active" description="On Site">Benedita Tavares</ui5-li>
-                            <ui5-li  type="Active" description="Travelling to Dayville">Tamara Bunce</ui5-li>
+                            <ui5-li image={Avatar_8} type="Active" description="Travelling to Dayville">John Bunce</ui5-li>
                             <ui5-li image={Avatar_10} type="Active" description="Headquaters Support">Michael Adams</ui5-li>
                         </ui5-list>
                     </ui5-card>
@@ -184,7 +181,7 @@ class Home extends Component {
                     heading="Failure Breakdown - Q1, 2019"
                     >
                         <div className="flex-center">
-                            <img src={chart1} className="chart"></img>
+                            <img src={chart1} className="chart" alt="chart 1"></img>
                         </div>
                     </ui5-card>
                 </div>
@@ -193,7 +190,7 @@ class Home extends Component {
                     heading="Weather failures"
                     >
                         <div className="flex-center">
-                            <img src={chart2} className="chart"></img>
+                            <img src={chart2} className="chart" alt="chart 2"></img>
                         </div>
                     </ui5-card>
                 </div>
@@ -204,43 +201,43 @@ class Home extends Component {
                     >
                         <ui5-list separators="None">
                             <ui5-li-custom>
-                                <div class="table-list">
+                                <div className="table-list">
                                     <ui5-title level="H5">Gran Ma Co.</ui5-title>
                                     <ui5-label>22.04.2019</ui5-label>
                                 </div>
                             </ui5-li-custom>
                             <ui5-li-custom>
-                                <div class="table-list">
+                                <div className="table-list">
                                     <ui5-title level="H5">CRO Corp.</ui5-title>
                                     <ui5-label>22.04.2019</ui5-label>
                                 </div>
                             </ui5-li-custom>
                             <ui5-li-custom>
-                                <div class="table-list">
+                                <div className="table-list">
                                     <ui5-title level="H5">Honey Tomb LTD.</ui5-title>
                                     <ui5-label>21.04.2019</ui5-label>
                                 </div>
                             </ui5-li-custom>
                             <ui5-li-custom>
-                                <div class="table-list">
+                                <div className="table-list">
                                     <ui5-title level="H5">Grow Wow Co.</ui5-title>
                                     <ui5-label>21.04.2019</ui5-label>
                                 </div>
                             </ui5-li-custom>
                             <ui5-li-custom>
-                                <div class="table-list">
+                                <div className="table-list">
                                     <ui5-title level="H5">Exact Corp.</ui5-title>
                                     <ui5-label>20.04.2019</ui5-label>
                                 </div>
                             </ui5-li-custom>
                             <ui5-li-custom>
-                                <div class="table-list">
+                                <div className="table-list">
                                     <ui5-title level="H5">Flawa LLC.</ui5-title>
                                     <ui5-label>19.04.2019</ui5-label>
                                 </div>
                             </ui5-li-custom>
                             <ui5-li-custom>
-                                <div class="table-list">
+                                <div className="table-list">
                                     <ui5-title level="H5">Alila Cosmetics Co.</ui5-title>
                                     <ui5-label>19.04.2019</ui5-label>
                                 </div>
@@ -266,7 +263,7 @@ class Home extends Component {
                         </ui5-list>
                     </ui5-card>
                 </div>
-                <div class="flex-basis-6 nested-flex-container hide-at-1240px">
+                <div className="flex-basis-6 nested-flex-container hide-at-1240px">
                     <ui5-card
                     class="nested-flex-item"
                     avatar="sap-icon://employee"
@@ -315,7 +312,7 @@ class Home extends Component {
                     heading="Drone Hive pioneers crops pollination"
                     subtitle="by New Scientist"
                     >
-                        <img src={Carousel1}></img>
+                        <img src={Carousel1} className="carousel-image" alt="Bee"></img>
                     </ui5-card>
                 </div>
             </div>

@@ -219,3 +219,8 @@
         flex-basis: 100%;
     }
 }
+
+.carousel-image {
+    margin-bottom: -4px;
+    width: 100%;
+}
