@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Home.css';
 import CardMap from './CardMap';
+import ImagesCard from './ImagesCard';
 import '@ui5/webcomponents/dist/Card';
 import "@ui5/webcomponents/dist/CustomListItem";
 import '@ui5/webcomponents/dist/DatePicker';
@@ -25,7 +26,6 @@ import Case_2 from './assets/images/Case2.png';
 import Case_3 from './assets/images/Case3.png';
 import chart1 from './assets/images/chart1.png';
 import chart2 from './assets/images/chart2.png';
-import Carousel1 from './assets/images/Carousel1.png';
 
 class Home extends Component {
 
@@ -308,12 +308,7 @@ class Home extends Component {
                     ></ui5-card>
                 </div>
                 <div className="flex-basis-4 hide-at-830px">
-                    <ui5-card
-                    heading="Drone Hive pioneers crops pollination"
-                    subtitle="by New Scientist"
-                    >
-                        <img src={Carousel1} className="carousel-image" alt="Bee"></img>
-                    </ui5-card>
+                    <ImagesCard></ImagesCard>
                 </div>
             </div>
         );
