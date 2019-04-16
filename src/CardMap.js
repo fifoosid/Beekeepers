@@ -55,6 +55,10 @@ class CardMap extends Component {
         fetch(`https://geocoder.api.here.com/6.2/geocode.json?app_id=lsZAntSMcKPBYrVMG1vl&app_code=1Fp4dI3bwoIJlJbdRmL43w&searchtext=${this.state.inputField.current.value}`)
             .then(response => response.json())
             .then(result => {
+                if (result.Response.View.length < 1) {
+                    return; // No result found
+                }
+
                 const position = result.Response.View[0].Result[0].Location.DisplayPosition;
                 this.setState(oldState => {
                     return {
