@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="232px" height="186px" viewBox="0 0 232 186" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 12</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="92" cy="80" r="32"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-30" y="-30" width="124" height="124">
+            <rect x="30" y="18" width="124" height="124" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+        <circle id="path-3" cx="92" cy="80" r="32"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-30" y="-30" width="124" height="124">
+            <rect x="30" y="18" width="124" height="124" fill="white"></rect>
+            <use xlink:href="#path-3" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Grid-16-column" transform="translate(-489.000000, -1120.000000)">
+            <g id="Card-3.1" transform="translate(473.000000, 1051.000000)">
+                <g id="Group-12" transform="translate(0.000000, 52.000000)">
+                    <rect id="Rectangle" x="0" y="0" width="324" height="220"></rect>
+                    <g id="Group-9" transform="translate(71.000000, 16.000000)">
+                        <circle id="Oval" stroke="#5899D9" stroke-width="30" cx="92" cy="80" r="47"></circle>
+                        <use id="Oval" stroke="#B2D4F5" mask="url(#mask-2)" stroke-width="60" stroke-dasharray="105" xlink:href="#path-1"></use>
+                        <use id="Oval" stroke="#E8743B" mask="url(#mask-4)" stroke-width="60" stroke-dasharray="84" xlink:href="#path-3"></use>
+                        <g id="Group-11">
+                            <text id="10.8%" font-family="72-Regular, 72" font-size="12" font-weight="normal" fill="#32363A">
+                                <tspan x="92" y="11">10.8%</tspan>
+                            </text>
+                            <text id="59.3%" font-family="72-Regular, 72" font-size="12" font-weight="normal" fill="#32363A">
+                                <tspan x="140" y="139">59.3%</tspan>
+                            </text>
+                            <text id="29.8%" font-family="72-Regular, 72" font-size="12" font-weight="normal" fill="#32363A">
+                                <tspan x="0" y="48">29.8%</tspan>
+                            </text>
+                            <path d="M127,18 L92,80" id="Path-4" stroke="#FFFFFF"></path>
+                            <path d="M32.5,115.5 L92,80" id="Path-4" stroke="#FFFFFF"></path>
+                            <path d="M81.5,9 L92,80" id="Path-4" stroke="#FFFFFF"></path>
+                        </g>
+                    </g>
+                    <g id="Group-8" transform="translate(16.000000, 189.000000)">
+                        <g id="Group-4" transform="translate(94.000000, 0.000000)">
+                            <text id="Rain" font-family="72-Regular, 72" font-size="12" font-weight="normal" fill="#333333">
+                                <tspan x="16" y="11">Rain</tspan>
+                            </text>
+                            <rect id="Rectangle-7" fill="#5899D9" x="0" y="3" width="12" height="8" rx="2"></rect>
+                        </g>
+                        <g id="Group-6" transform="translate(150.000000, 0.000000)">
+                            <text id="Temperature" font-family="72-Regular, 72" font-size="12" font-weight="normal" fill="#333333">
+                                <tspan x="16" y="11">Temperature</tspan>
+                            </text>
+                            <path d="M0,4.99810135 C0,3.89458045 0.901950359,3 2.0085302,3 L9.9914698,3 C11.1007504,3 12,3.88670635 12,4.99810135 L12,9.00189865 C12,10.1054196 11.0980496,11 9.9914698,11 L2.0085302,11 C0.899249601,11 0,10.1132936 0,9.00189865 L0,4.99810135 Z" id="Rectangle-7" fill="#B2D4F5"></path>
+                        </g>
+                        <g id="Group-5">
+                            <text id="Storm-Wind" font-family="72-Regular, 72" font-size="12" font-weight="normal" fill="#333333">
+                                <tspan x="16" y="11">Storm Wind</tspan>
+                            </text>
+                            <rect id="Rectangle-7" fill="#E8743B" x="0" y="3" width="12" height="8" rx="2"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

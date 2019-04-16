@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="377px" height="182px" viewBox="0 0 377 182" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Grid-16-column" transform="translate(-65.000000, -1177.000000)">
+            <g id="Card-3.0" transform="translate(48.000000, 1051.000000)">
+                <g id="Group-2" transform="translate(0.000000, 107.000000)">
+                    <g id="Group-3">
+                        <rect id="Rectangle" x="0" y="0" width="409" height="218"></rect>
+                        <g id="Column-Chart" transform="translate(17.000000, 15.000000)">
+                            <path d="M34.3946281,34.3790323 L376.394628,34.3790323" id="Stroke-1" stroke="#E5E5E5"></path>
+                            <path d="M34.3946281,9.54032258 L376.394628,9.54032258" id="Stroke-4" stroke="#E5E5E5"></path>
+                            <path d="M34.3946281,58.3306452 L376.394628,58.3306452" id="Stroke-5" stroke="#E5E5E5"></path>
+                            <text id="4K" font-family="72-Regular, 72" font-size="12" font-weight="normal" line-spacing="16" fill="#4A4A4A">
+                                <tspan x="8.75403646" y="37.0989989">4K</tspan>
+                            </text>
+                            <text id="5K" font-family="72-Regular, 72" font-size="12" font-weight="normal" line-spacing="16" fill="#4A4A4A">
+                                <tspan x="8.75403646" y="12.5457916">5K</tspan>
+                            </text>
+                            <text id="3K" font-family="72-Regular, 72" font-size="12" font-weight="normal" line-spacing="16" fill="#4A4A4A">
+                                <tspan x="8.75403646" y="61.6522062">3K</tspan>
+                            </text>
+                            <path d="M34.3946281,83.1693548 L376.394628,83.1693548" id="Stroke-1" stroke="#E5E5E5"></path>
+                            <path d="M34.3946281,108.008065 L376.394628,108.008065" id="Stroke-5" stroke="#E5E5E5"></path>
+                            <text id="2K" font-family="72-Regular, 72" font-size="12" font-weight="normal" line-spacing="16" fill="#4A4A4A">
+                                <tspan x="8.75403646" y="86.2054134">2K</tspan>
+                            </text>
+                            <text id="1K" font-family="72-Regular, 72" font-size="12" font-weight="normal" line-spacing="16" fill="#4A4A4A">
+                                <tspan x="8.75403646" y="110.758621">1K</tspan>
+                            </text>
+                            <text id="0" font-family="72-Regular, 72" font-size="12" font-weight="normal" line-spacing="16" fill="#4A4A4A">
+                                <tspan x="16.3595052" y="135.896428">0</tspan>
+                            </text>
+                            <g id="Group-7" transform="translate(73.745518, 14.014893)">
+                                <g id="Group-31"></g>
+                            </g>
+                            <g id="Group-33" transform="translate(155.000000, 81.000000)">
+                                <text id="Mechanics" font-family="72-Regular, 72" font-size="12" font-weight="normal" line-spacing="16" fill="#32363B">
+                                    <tspan x="25.3955078" y="70">Mechanics</tspan>
+                                </text>
+                                <g id="Group-29" transform="translate(32.000000, -0.000000)">
+                                    <g id="Group-30" transform="translate(5.641950, 0.000000)">
+                                        <path d="M-0.5,51.9762081 L-0.5,23.5 L32.5,23.5 L32.5,51.9762081 L-0.5,51.9762081 Z" id="Column" stroke="#FFFFFF" fill="#367DC4"></path>
+                                        <polygon id="Column" fill="#74ABE2" points="0 25.0845816 32 25.0845816 32 8.69200346 0 8.69200346"></polygon>
+                                        <path d="M0,11.6920035 L32,11.6920035 L32,2.00992705 C32,0.899874992 31.1107383,0 29.9982567,0 L2.00174332,0 C0.89621101,0 0,0.898037899 0,2.00992705 L0,11.6920035 Z" id="Column" fill="#B2D4F5"></path>
+                                    </g>
+                                </g>
+                                <path d="M32,25.50275 C46.1176471,25.5009167 62.8823529,25.4990833 77,25.49725" id="Path-2" stroke="#FFFFFF" fill-rule="nonzero"></path>
+                                <path d="M32,11.50275 C46.1176471,11.5009167 62.8823529,11.4990833 77,11.49725" id="Path-2" stroke="#FFFFFF" fill-rule="nonzero"></path>
+                            </g>
+                            <g id="Group-27" transform="translate(262.000000, 74.000000)">
+                                <text id="Software" font-family="72-Regular, 72" font-size="12" font-weight="normal" line-spacing="16" fill="#32363B">
+                                    <tspan x="33.1738281" y="77">Software</tspan>
+                                </text>
+                                <g id="Group-23" transform="translate(36.000000, -0.000000)">
+                                    <g id="Group-24">
+                                        <g id="Group-25" transform="translate(5.641950, 0.000000)">
+                                            <g id="Group-26">
+                                                <path d="M-0.5,58.453405 L-0.5,40.5 L32.5,40.5 L32.5,58.453405 L-0.5,58.453405 Z" id="Column" stroke="#FFFFFF" fill="#367DC4"></path>
+                                                <polygon id="Column" fill="#74ABE2" points="0 41.4610061 32 41.4610061 32 16.2054134 0 16.2054134"></polygon>
+                                                <path d="M0,20.4610061 L32,20.4610061 L32,1.99914182 C32,0.895046279 31.1107383,0 29.9982567,0 L2.00174332,0 C0.89621101,0 0,0.892340548 0,1.99914182 L0,20.4610061 Z" id="Column" fill="#B2D4F5"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                                <path d="M36,41.50275 C50.3333333,41.5009167 64.6666667,41.4990833 79,41.49725" id="Path-2" stroke="#FFFFFF" fill-rule="nonzero"></path>
+                                <path d="M36,20.50275 C50.3333333,20.5009167 64.6666667,20.4990833 79,20.49725" id="Path-2" stroke="#FFFFFF" fill-rule="nonzero"></path>
+                            </g>
+                            <g id="Group-32" transform="translate(35.000000, 14.000000)">
+                                <text id="Weather" font-family="72-Regular, 72" font-size="12" font-weight="normal" line-spacing="16" fill="#32363B">
+                                    <tspan x="37.4658203" y="137">Weather</tspan>
+                                </text>
+                                <g id="Group-14" transform="translate(40.000000, -0.000000)">
+                                    <path d="M0.25407639,118.513904 L0.25407639,79.5148931 L31.9603529,79.5148931 L31.9603529,118.513904 L0.25407639,118.513904 Z" id="Column" stroke="#FFFFFF" fill="#367DC4"></path>
+                                    <polygon id="Column" fill="#74ABE2" points="0.75407639 86.1983068 31.4603529 86.1983068 31.4603529 40.0148931 0.75407639 40.0148931"></polygon>
+                                    <path d="M0.75407639,39.7677049 L31.4603529,39.7677049 L31.4603529,2.01348435 C31.4603529,0.909692879 30.5744891,0.0148930911 29.4692878,0.0148930911 L2.74514154,0.0148930911 C1.64550662,0.0148930911 0.75407639,0.919876935 0.75407639,2.01348435 L0.75407639,39.7677049 Z" id="Column" fill="#B2D4F5"></path>
+                                    <path d="M0.0633147114,39.50275 C10.6162894,39.5009167 21.169264,39.4990833 31.7222387,39.49725" id="Path-2" stroke="#FFFFFF" fill-rule="nonzero"></path>
+                                    <path d="M0.0633147114,86.50275 C10.6162894,86.5009167 21.169264,86.4990833 31.7222387,86.49725" id="Path-2" stroke="#FFFFFF" fill-rule="nonzero"></path>
+                                </g>
+                            </g>
+                            <path d="M34.9493802,4.95359041 L34.9493802,131.941075" id="Line" stroke="#9B9B9B" stroke-linecap="square"></path>
+                            <path d="M34.3946281,131.959677 L376.394628,131.959677" id="Stroke-18" stroke="#9B9B9B"></path>
+                        </g>
+                        <g id="Group-34" transform="translate(17.000000, 188.000000)">
+                            <g id="Group-4" transform="translate(81.000000, 0.000000)">
+                                <text id="Q4,-2018" font-family="72-Regular, 72" font-size="12" font-weight="normal" fill="#333333">
+                                    <tspan x="16" y="11">Q4, 2018</tspan>
+                                </text>
+                                <rect id="Rectangle-7" fill="#74ABE2" x="0" y="3" width="12" height="8" rx="2"></rect>
+                            </g>
+                            <g id="Group-6" transform="translate(162.000000, 0.000000)">
+                                <text id="Q1,-2019" font-family="72-Regular, 72" font-size="12" font-weight="normal" fill="#333333">
+                                    <tspan x="16" y="11">Q1, 2019</tspan>
+                                </text>
+                                <path d="M0,4.99810135 C0,3.89458045 0.901950359,3 2.0085302,3 L9.9914698,3 C11.1007504,3 12,3.88670635 12,4.99810135 L12,9.00189865 C12,10.1054196 11.0980496,11 9.9914698,11 L2.0085302,11 C0.899249601,11 0,10.1132936 0,9.00189865 L0,4.99810135 Z" id="Rectangle-7" fill="#367DC4"></path>
+                            </g>
+                            <g id="Group-5">
+                                <text id="Q3,-2018" font-family="72-Regular, 72" font-size="12" font-weight="normal" fill="#333333">
+                                    <tspan x="16" y="11">Q3, 2018</tspan>
+                                </text>
+                                <rect id="Rectangle-7" fill="#B2D4F5" x="0" y="3" width="12" height="8" rx="2"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

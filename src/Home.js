@@ -24,8 +24,8 @@ import Avatar_10 from './assets/images/Avatar_10.png';
 import Case_1 from './assets/images/Case1.png';
 import Case_2 from './assets/images/Case2.png';
 import Case_3 from './assets/images/Case3.png';
-import chart1 from './assets/images/chart1.png';
-import chart2 from './assets/images/chart2.png';
+import chart1 from './assets/images/chart1.svg';
+import chart2 from './assets/images/chart2.svg';
 
 class Home extends Component {
 
@@ -68,7 +68,7 @@ class Home extends Component {
                     avatar={Avatar_3}
                     >
                         <div className="card-content">
-                            <ui5-title class="padding-bottom">Peach Valley Inc.</ui5-title>
+                            <ui5-title class="padding-bottom">Lean Pulp Inc.</ui5-title>
                             <div className="contacts">
                                 <ui5-label>Mobile:</ui5-label>
                                 <ui5-link>+001 6101 34869-0</ui5-link>
@@ -156,7 +156,7 @@ class Home extends Component {
                     >
                         <ui5-list separators="None">
                             <ui5-li image={Avatar_6} type="Active" description="On Site">Benedita Tavares</ui5-li>
-                            <ui5-li image={Avatar_8} type="Active" description="Travelling to Dayville">John Bunce</ui5-li>
+                            <ui5-li image={Avatar_8} type="Active" description="Travelling to Dayville">Tamara Bunce</ui5-li>
                             <ui5-li image={Avatar_10} type="Active" description="Headquaters Support">Michael Adams</ui5-li>
                         </ui5-list>
                     </ui5-card>
@@ -169,7 +169,7 @@ class Home extends Component {
                     >
                         <ui5-list separators="None">
                             <ui5-li image={Avatar_7} type="Active" description="On Site">Thomas Fulloway</ui5-li>
-                            <ui5-li image={Avatar_3} type="Active" description="Headquaters Support">Lacara Jones</ui5-li>
+                            <ui5-li image={Avatar_3} type="Active" description="Headquaters Support">Donna Mendez</ui5-li>
                         </ui5-list>
                     </ui5-card>
                 </div>
