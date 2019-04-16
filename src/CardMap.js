@@ -48,6 +48,10 @@ class CardMap extends Component {
     }
 
     handleMapSelection() {
+        if (!this.state.inputField.current.value) {
+            return;
+        }
+
         fetch(`https://geocoder.api.here.com/6.2/geocode.json?app_id=lsZAntSMcKPBYrVMG1vl&app_code=1Fp4dI3bwoIJlJbdRmL43w&searchtext=${this.state.inputField.current.value}`)
             .then(response => response.json())
             .then(result => {
