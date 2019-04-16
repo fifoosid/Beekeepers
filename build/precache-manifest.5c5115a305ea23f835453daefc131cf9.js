@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/pages/ui5-webcomponents/fiori3-sample-app/static/media/Avatar_7.5ffae675.png"
   },
   {
-    "revision": "42923ba721bd18d458e8",
-    "url": "/pages/ui5-webcomponents/fiori3-sample-app/static/css/main.468ed54e.chunk.css"
+    "revision": "d3d8142a77ee986f8aa7",
+    "url": "/pages/ui5-webcomponents/fiori3-sample-app/static/css/main.3768326a.chunk.css"
   },
   {
     "revision": "24f6344efd0df7e63e0b",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/pages/ui5-webcomponents/fiori3-sample-app/static/media/Avatar_6.c69bceae.png"
   },
   {
-    "revision": "42923ba721bd18d458e8",
+    "revision": "d3d8142a77ee986f8aa7",
     "url": "/pages/ui5-webcomponents/fiori3-sample-app/static/js/main.d929f36f.chunk.js"
   },
   {
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/pages/ui5-webcomponents/fiori3-sample-app/static/media/Avatar_4.c415249b.png"
   },
   {
-    "revision": "6a65ec605c763db277c7aa4e3f2bd515",
+    "revision": "5fc33bc59b5deb16c0ed98cf56e08135",
     "url": "/pages/ui5-webcomponents/fiori3-sample-app/index.html"
   }
 ];

@@ -1,5 +1,5 @@
 {
-  "main.css": "/pages/ui5-webcomponents/fiori3-sample-app/static/css/main.468ed54e.chunk.css",
+  "main.css": "/pages/ui5-webcomponents/fiori3-sample-app/static/css/main.3768326a.chunk.css",
   "main.js": "/pages/ui5-webcomponents/fiori3-sample-app/static/js/main.d929f36f.chunk.js",
   "main.js.map": "/pages/ui5-webcomponents/fiori3-sample-app/static/js/main.d929f36f.chunk.js.map",
   "runtime~main.js": "/pages/ui5-webcomponents/fiori3-sample-app/static/js/runtime~main.492a850a.js",
@@ -7,9 +7,9 @@
   "static/js/2.6765bc5d.chunk.js": "/pages/ui5-webcomponents/fiori3-sample-app/static/js/2.6765bc5d.chunk.js",
   "static/js/2.6765bc5d.chunk.js.map": "/pages/ui5-webcomponents/fiori3-sample-app/static/js/2.6765bc5d.chunk.js.map",
   "index.html": "/pages/ui5-webcomponents/fiori3-sample-app/index.html",
-  "precache-manifest.167de433e7ca43b7075f6d3a85de2e48.js": "/pages/ui5-webcomponents/fiori3-sample-app/precache-manifest.167de433e7ca43b7075f6d3a85de2e48.js",
+  "precache-manifest.5c5115a305ea23f835453daefc131cf9.js": "/pages/ui5-webcomponents/fiori3-sample-app/precache-manifest.5c5115a305ea23f835453daefc131cf9.js",
   "service-worker.js": "/pages/ui5-webcomponents/fiori3-sample-app/service-worker.js",
-  "static/css/main.468ed54e.chunk.css.map": "/pages/ui5-webcomponents/fiori3-sample-app/static/css/main.468ed54e.chunk.css.map",
+  "static/css/main.3768326a.chunk.css.map": "/pages/ui5-webcomponents/fiori3-sample-app/static/css/main.3768326a.chunk.css.map",
   "static/media/Avatar_1.png": "/pages/ui5-webcomponents/fiori3-sample-app/static/media/Avatar_1.65b4ac0e.png",
   "static/media/Avatar_10.png": "/pages/ui5-webcomponents/fiori3-sample-app/static/media/Avatar_10.55f63164.png",
   "static/media/Avatar_2.png": "/pages/ui5-webcomponents/fiori3-sample-app/static/media/Avatar_2.042274a5.png",
