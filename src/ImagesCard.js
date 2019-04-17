@@ -15,18 +15,18 @@ class ImagesCard extends Component {
         this.state = {
             cardInfo: [
                 {
-                    author: 'New Scientist',
                     header: 'Drone Hive pioneers crops pollination',
+                    author: 'New Scientist',
                     image: Carousel1,
                 },
                 {
-                    author: 'Old Scientist',
-                    header: 'Drone Hive pioneers crops pollination',
+                    header: 'Repair Flow is paving the path to automation',
+                    author: 'Beehive Weekly',
                     image: Carousel2,
                 },
                 {
-                    author: 'Very Old Scientist',
-                    header: 'Drone Hive pioneers crops pollination',
+                    header: 'Drone flights in extreme conditions',
+                    author: 'Guardian',
                     image: Carousel3,
                 }
             ],
