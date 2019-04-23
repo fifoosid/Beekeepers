@@ -145,10 +145,18 @@
     color: #e9730c;
 }
 
+.custom-list-item-height {
+    height: 4rem;
+}
+
 .chart {
     width: 80%;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+.table-list-item {
+    height: 3rem;
 }
 
 .table-list {

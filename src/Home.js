@@ -95,7 +95,7 @@ class Home extends Component {
                     status="3 of 3"
                     >
                         <ui5-list separators="Inner">
-                            <ui5-li-custom>
+                            <ui5-li-custom class="custom-list-item-height">
                                 <div className="firms-list">
                                     <div className="firms-list-item negative-border">
                                         <img src={Case_1} className="image" alt="avatar"></img>
@@ -107,7 +107,7 @@ class Home extends Component {
                                     <div className="counter red-label">2456</div>
                                 </div>
                             </ui5-li-custom>
-                            <ui5-li-custom>
+                            <ui5-li-custom class="custom-list-item-height">
                                 <div className="firms-list">
                                     <div className="firms-list-item warning-border">
                                         <img src={Case_2} className="image" alt="avatar"></img>
@@ -119,7 +119,7 @@ class Home extends Component {
                                     <div className="counter orange-label">1263</div>
                                 </div>
                             </ui5-li-custom>
-                            <ui5-li-custom>
+                            <ui5-li-custom class="custom-list-item-height">
                                 <div className="firms-list">
                                     <div className="firms-list-item">
                                         <img src={Case_3} className="image" alt="avatar"></img>
@@ -200,43 +200,43 @@ class Home extends Component {
                     status="7 of 28"
                     >
                         <ui5-list separators="None">
-                            <ui5-li-custom>
+                            <ui5-li-custom class="table-list-item">
                                 <div className="table-list">
                                     <ui5-title level="H5">Gran Ma Co.</ui5-title>
                                     <ui5-label>22.04.2019</ui5-label>
                                 </div>
                             </ui5-li-custom>
-                            <ui5-li-custom>
+                            <ui5-li-custom class="table-list-item">
                                 <div className="table-list">
                                     <ui5-title level="H5">CRO Corp.</ui5-title>
                                     <ui5-label>22.04.2019</ui5-label>
                                 </div>
                             </ui5-li-custom>
-                            <ui5-li-custom>
+                            <ui5-li-custom class="table-list-item">
                                 <div className="table-list">
                                     <ui5-title level="H5">Honey Tomb LTD.</ui5-title>
                                     <ui5-label>21.04.2019</ui5-label>
                                 </div>
                             </ui5-li-custom>
-                            <ui5-li-custom>
+                            <ui5-li-custom class="table-list-item">
                                 <div className="table-list">
                                     <ui5-title level="H5">Grow Wow Co.</ui5-title>
                                     <ui5-label>21.04.2019</ui5-label>
                                 </div>
                             </ui5-li-custom>
-                            <ui5-li-custom>
+                            <ui5-li-custom class="table-list-item">
                                 <div className="table-list">
                                     <ui5-title level="H5">Exact Corp.</ui5-title>
                                     <ui5-label>20.04.2019</ui5-label>
                                 </div>
                             </ui5-li-custom>
-                            <ui5-li-custom>
+                            <ui5-li-custom class="table-list-item">
                                 <div className="table-list">
                                     <ui5-title level="H5">Flawa LLC.</ui5-title>
                                     <ui5-label>19.04.2019</ui5-label>
                                 </div>
                             </ui5-li-custom>
-                            <ui5-li-custom>
+                            <ui5-li-custom class="table-list-item">
                                 <div className="table-list">
                                     <ui5-title level="H5">Alila Cosmetics Co.</ui5-title>
                                     <ui5-label>19.04.2019</ui5-label>
