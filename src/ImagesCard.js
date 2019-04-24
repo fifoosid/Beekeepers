@@ -4,9 +4,9 @@ import '@ui5/webcomponents/dist/Button';
 import '@ui5/webcomponents/dist/Card';
 import '@ui5/webcomponents/dist/Input';
 
-import Carousel1 from './assets/images/Carousel1.png';
-import Carousel2 from './assets/images/Carousel2.png';
-import Carousel3 from './assets/images/Carousel3.png';
+import Carousel1_m from './assets/images/Carousel1_m.jpg';
+import Carousel2_m from './assets/images/Carousel2_m.jpg';
+import Carousel3_m from './assets/images/Carousel3_m.jpg';
 
 class ImagesCard extends Component {
     constructor() {
@@ -17,17 +17,17 @@ class ImagesCard extends Component {
                 {
                     header: 'Drone Hive pioneers crops pollination',
                     author: 'New Scientist',
-                    image: Carousel1,
+                    image: Carousel1_m,
                 },
                 {
                     header: 'Repair Flow is paving the path to automation',
                     author: 'Beehive Weekly',
-                    image: Carousel2,
+                    image: Carousel2_m,
                 },
                 {
                     header: 'Drone flights in extreme conditions',
                     author: 'Guardian',
-                    image: Carousel3,
+                    image: Carousel3_m,
                 }
             ],
             selectedIndex: 1
