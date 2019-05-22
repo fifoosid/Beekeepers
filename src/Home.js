@@ -98,7 +98,7 @@ class Home extends Component {
                             <ui5-li-custom class="custom-list-item-height">
                                 <div className="firms-list">
                                     <div className="firms-list-item negative-border">
-                                        <img src={Case_1} className="image" alt="avatar"></img>
+                                        <img src={Case_2} className="image" alt="avatar"></img>
                                     </div>
                                     <div className="main-info">
                                         <ui5-title level="H5">Teico Inc.</ui5-title>
@@ -110,7 +110,7 @@ class Home extends Component {
                             <ui5-li-custom class="custom-list-item-height">
                                 <div className="firms-list">
                                     <div className="firms-list-item warning-border">
-                                        <img src={Case_2} className="image" alt="avatar"></img>
+                                        <img src={Case_3} className="image" alt="avatar"></img>
                                     </div>
                                     <div className="main-info">
                                         <ui5-title level="H5">Freshhh LTD.</ui5-title>
@@ -122,7 +122,7 @@ class Home extends Component {
                             <ui5-li-custom class="custom-list-item-height">
                                 <div className="firms-list">
                                     <div className="firms-list-item">
-                                        <img src={Case_3} className="image" alt="avatar"></img>
+                                        <img src={Case_1} className="image" alt="avatar"></img>
                                     </div>
                                     <div className="main-info">
                                         <ui5-title level="H5">Lean Pulp</ui5-title>
@@ -138,7 +138,7 @@ class Home extends Component {
                     <ui5-card
                     heading="Teico Inc."
                     subtitle="Sudden storm wind damaged 3 polinating hives"
-                    avatar={Case_1}
+                    avatar={Case_2}
                     >
                         <ui5-list separators="None">
                             <ui5-li image={Avatar_1} type="Active" description="On Site">Alain Chevalier</ui5-li>
@@ -152,7 +152,7 @@ class Home extends Component {
                     <ui5-card
                     heading="Freshhh LTD."
                     subtitle="Electric shock while charging"
-                    avatar={Case_2}
+                    avatar={Case_3}
                     >
                         <ui5-list separators="None">
                             <ui5-li image={Avatar_6} type="Active" description="On Site">Benedita Tavares</ui5-li>
@@ -165,7 +165,7 @@ class Home extends Component {
                     <ui5-card
                     heading="Lean Pulp"
                     subtitle="Software update Issues"
-                    avatar={Case_3}
+                    avatar={Case_1}
                     >
                         <ui5-list separators="None">
                             <ui5-li image={Avatar_7} type="Active" description="On Site">Thomas Fulloway</ui5-li>
