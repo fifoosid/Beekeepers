@@ -12,6 +12,12 @@ import "@ui5/webcomponents/dist/Label";
 
 import logo from './assets/images/CompanyLogo.png';
 import profileImage from './assets/images/Avatar_4.png';
+
+import { Switch, Route } from "react-router-dom";
+import CardMap from './CardMap';
+import ImagesCard from './ImagesCard';
+
+
 class App extends Component {
 	constructor() {
 		super();
@@ -39,7 +45,7 @@ class App extends Component {
 					<ui5-shellbar-item data-ui5-slot="items" id="connect" src="sap-icon://paper-plane" text="Connect"></ui5-shellbar-item>
 					<ui5-shellbar-item data-ui5-slot="items" id="notifications" src="sap-icon://bell" text="Notifications"></ui5-shellbar-item>
 				</ui5-shellbar>
-				<ui5-tabcontainer
+				{/* <ui5-tabcontainer
 					fixed="false"
 				>
 					<ui5-tab text="Home">
@@ -51,7 +57,13 @@ class App extends Component {
 					</ui5-tab>
 					<ui5-tab disabled text="Drone Development">
 					</ui5-tab>
-				</ui5-tabcontainer>
+				</ui5-tabcontainer> */}
+
+
+					<Route path="/" component={Home}></Route>
+				<Switch>
+					<Route exact path="/teico" component={ImagesCard}></Route>
+				</Switch>
 			</div>
 		);
 	}

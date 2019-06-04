@@ -27,6 +27,8 @@ import Case_3 from './assets/images/Case3.png';
 import chart1 from './assets/images/chart1.svg';
 import chart2 from './assets/images/chart2.svg';
 
+import { Link } from "react-router-dom";
+
 class Home extends Component {
 
     constructor() {
@@ -45,6 +47,7 @@ class Home extends Component {
         const thirdMeeting = new Date().setHours(12, 0);
         return (
             <div className="flex-container">
+                <Link to="/teico">Home</Link>
             {/* First line of Cads */}
                 <div className="flex-basis-4">
                     <ui5-card
@@ -84,7 +87,7 @@ class Home extends Component {
                     </ui5-card>
                 </div>
                 <div className="flex-basis-7 hide-at-1240px">
-                    <CardMap></CardMap>
+                    {/* <CardMap></CardMap> */}
                 </div>
 
                 <ui5-title class="flex-basis-full section-header">Incidents</ui5-title>
