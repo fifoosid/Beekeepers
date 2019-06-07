@@ -194,7 +194,15 @@ class TeicoPage extends Component {
                         </div>
                     </ObjectPageSection>
                     <ObjectPageSection title="Raw Drone Data" id="4">
-                        <ui5-title>Damaged Drones (11 of 2456)</ui5-title>
+                        <div className="section4-header">
+                            <ui5-title level="H4">Damaged Drones (11 of 2456)</ui5-title>
+                            <div className="searchWrapper">
+                                <ui5-button class="margin-right">Edit columns</ui5-button>
+                                <ui5-input placeholder="Search" class="input-width">
+                                    <ui5-icon id="searchIcon" slot="icon" src="sap-icon://search" class="inputIcon"></ui5-icon>
+                                </ui5-input>
+                            </div>
+                        </div>
 
                         <ui5-table class="demo-table" id="tbl">
                             <ui5-table-column slot="columns-1" width="12em">
@@ -226,14 +234,42 @@ class TeicoPage extends Component {
                             </ui5-table-column>
 
                             {data.map((item, index) => {
-                                return <ui5-table-row slot={`rows-${index}`}>
-                                    <ui5-table-cell slot="cells-1">{item.serialNumber}</ui5-table-cell>
-                                    <ui5-table-cell slot="cells-2">{item.lastSignal}</ui5-table-cell>
-                                    <ui5-table-cell slot="cells-3">{item.speed}</ui5-table-cell>
-                                    <ui5-table-cell slot="cells-4">{item.latitude}</ui5-table-cell>
-                                    <ui5-table-cell slot="cells-5">{item.battery}</ui5-table-cell>
-                                    <ui5-table-cell slot="cells-6">{item.temperature}</ui5-table-cell>
-                                    <ui5-table-cell slot="cells-7">{item.latestLocation}</ui5-table-cell>
+                                return <ui5-table-row key={item.serialNumber} slot={`rows-${index}`}>
+                                    <ui5-table-cell slot="cells-1">
+                                        <ui5-label class="bold">
+                                            {item.serialNumber}
+                                        </ui5-label>
+                                    </ui5-table-cell>
+                                    <ui5-table-cell slot="cells-2">
+                                        <ui5-label>
+                                            {item.lastSignal}
+                                        </ui5-label>
+                                    </ui5-table-cell>
+                                    <ui5-table-cell slot="cells-3">
+                                        <ui5-label>
+                                            {item.speed}
+                                        </ui5-label>
+                                    </ui5-table-cell>
+                                    <ui5-table-cell slot="cells-4">
+                                        <ui5-label>
+                                            {item.latitude}
+                                        </ui5-label>
+                                    </ui5-table-cell>
+                                    <ui5-table-cell slot="cells-5">
+                                        <ui5-label class="red-color">
+                                            {item.battery}
+                                        </ui5-label>
+                                    </ui5-table-cell>
+                                    <ui5-table-cell slot="cells-6">
+                                        <ui5-label>
+                                            {item.temperature}
+                                        </ui5-label>
+                                    </ui5-table-cell>
+                                    <ui5-table-cell slot="cells-7">
+                                        <ui5-label>
+                                            {item.latestLocation}
+                                        </ui5-label>
+                                    </ui5-table-cell>
                                 </ui5-table-row>
                             })}
 

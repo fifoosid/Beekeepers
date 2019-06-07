@@ -31,3 +31,41 @@
     width: 300px;
     margin-bottom: 1rem;
 }
+
+.section4-header {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.margin-right {
+    margin-right: 1rem;
+}
+
+.searchWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.input-width {
+    width: 320px;
+}
+
+.inputIcon {
+    background: #fafafa;
+    color: #0a6ed1;
+    cursor: pointer;
+}
+
+.inputIcon:hover{
+    background: rgba(224,224,224,0.5)
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.red-color {
+    color: red;
+}
