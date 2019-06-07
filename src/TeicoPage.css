@@ -1,0 +1,33 @@
+.section1 {
+    display: flex;
+}
+
+.section1 > ui5-li, .section3 > ui5-li  {
+    margin-right: 2rem;
+    --ui5-listitem-background-color: transparent;
+}
+
+.section2 {
+    display: flex;
+}
+
+.section2-timeline {
+    width: 350px;
+}
+
+.section2-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 650px;
+}
+
+.section3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section3 > ui5-li {
+    width: 300px;
+    margin-bottom: 1rem;
+}

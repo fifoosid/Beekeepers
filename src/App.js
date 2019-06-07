@@ -13,9 +13,8 @@ import "@ui5/webcomponents/dist/Label";
 import logo from './assets/images/CompanyLogo.png';
 import profileImage from './assets/images/Avatar_4.png';
 
-import { Switch, Route } from "react-router-dom";
-import CardMap from './CardMap';
-import ImagesCard from './ImagesCard';
+import { Route } from "react-router-dom";
+import TeicoPage from './TeicoPage';
 
 
 class App extends Component {
@@ -33,7 +32,7 @@ class App extends Component {
 	render() {
 		return (
 			<div>
-				<ui5-shellbar
+				{/* <ui5-shellbar
 					primary-title='Drone Hive'
 					secondary-title={this.state.displayDate}
 					logo={logo}
@@ -44,26 +43,11 @@ class App extends Component {
 
 					<ui5-shellbar-item data-ui5-slot="items" id="connect" src="sap-icon://paper-plane" text="Connect"></ui5-shellbar-item>
 					<ui5-shellbar-item data-ui5-slot="items" id="notifications" src="sap-icon://bell" text="Notifications"></ui5-shellbar-item>
-				</ui5-shellbar>
-				{/* <ui5-tabcontainer
-					fixed="false"
-				>
-					<ui5-tab text="Home">
-						<Home></Home>
-					</ui5-tab>
-					<ui5-tab disabled text="Team Distribution">
-					</ui5-tab>
-					<ui5-tab disabled text="Drone Maintanance">
-					</ui5-tab>
-					<ui5-tab disabled text="Drone Development">
-					</ui5-tab>
-				</ui5-tabcontainer> */}
+				</ui5-shellbar> */}
 
 
-					<Route path="/" component={Home}></Route>
-				<Switch>
-					<Route exact path="/teico" component={ImagesCard}></Route>
-				</Switch>
+				<Route exact path="/" component={Home}></Route>
+				<Route exact path="/teico" component={TeicoPage}></Route>
 			</div>
 		);
 	}
