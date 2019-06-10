@@ -32,7 +32,7 @@ class App extends Component {
 	render() {
 		return (
 			<div>
-				{/* <ui5-shellbar
+				<ui5-shellbar
 					primary-title='Drone Hive'
 					secondary-title={this.state.displayDate}
 					logo={logo}
@@ -43,7 +43,7 @@ class App extends Component {
 
 					<ui5-shellbar-item data-ui5-slot="items" id="connect" src="sap-icon://paper-plane" text="Connect"></ui5-shellbar-item>
 					<ui5-shellbar-item data-ui5-slot="items" id="notifications" src="sap-icon://bell" text="Notifications"></ui5-shellbar-item>
-				</ui5-shellbar> */}
+				</ui5-shellbar>
 
 
 				<Route exact path="/" component={Home}></Route>
