@@ -29,18 +29,22 @@ import Case_3 from './assets/images/Case3.png';
 import chart1 from './assets/images/chart1.svg';
 import chart2 from './assets/images/chart2.svg';
 
-import { Link } from "react-router-dom";
-
 class Home extends Component {
 
     constructor() {
         super();
         const today = new Date();
         const time = `${today.getHours()}:${today.getMinutes()}`;
-        
+        this.TeicoCard = React.createRef()
+
         this.state = {
             time
         }
+
+    }
+
+    componentDidMount() {
+        this.TeicoCard.current.addEventListener('headerPress', () => this.props.history.push("/teico"));
     }
 
     render() {
@@ -53,7 +57,6 @@ class Home extends Component {
 				>
 					<ui5-tab text="Home">
                         <div className="flex-container">
-                        <Link to="/teico">Home</Link>
                         {/* First line of Cads */}
                         <div className="flex-basis-4">
                             <ui5-card
@@ -93,7 +96,7 @@ class Home extends Component {
                             </ui5-card>
                         </div>
                         <div className="flex-basis-7 hide-at-1240px">
-                            {/* <CardMap></CardMap> */}
+                            <CardMap></CardMap>
                         </div>
 
                         <ui5-title class="flex-basis-full section-header">Incidents</ui5-title>
@@ -148,6 +151,7 @@ class Home extends Component {
                             heading="Teico Inc."
                             subtitle="Sudden storm wind damaged 3 polinating hives"
                             avatar={Case_2}
+                            ref={this.TeicoCard}
                             >
                                 <ui5-list separators="None">
                                     <ui5-li image={Avatar_1} type="Active" description="On Site">Alain Chevalier</ui5-li>

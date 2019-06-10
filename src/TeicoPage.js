@@ -20,14 +20,6 @@ import Avatar_9 from './assets/images/Avatar_2.png';
 import "./TeicoPage.css";
 
 class TeicoPage extends Component {
-    // constructor() {
-    //     super();
-
-    //     this.state = {
-          
-    //     }
-    // }
-
     render() {
         const data = [
             {
