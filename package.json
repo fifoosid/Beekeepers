@@ -5,7 +5,7 @@
   "homepage": "https://github.wdf.sap.corp/pages/ui5-webcomponents/fiori3-sample-app/",
   "dependencies": {
     "@fiori-for-react/fiori3": "^0.3.0",
-    "@ui5/webcomponents": "^0.11.1",
+    "@ui5/webcomponents": "^0.12.0",
     "gh-pages": "^2.0.1",
     "mapbox-gl": "^0.53.1",
     "react": "^16.8.6",

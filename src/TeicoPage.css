@@ -5,6 +5,7 @@
 .section1 > ui5-li, .section3 > ui5-li  {
     margin-right: 2rem;
     --ui5-listitem-background-color: transparent;
+    --ui5-listitem-border-bottom: none;
 }
 
 .section2 {

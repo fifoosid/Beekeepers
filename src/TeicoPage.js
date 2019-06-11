@@ -249,7 +249,7 @@ class TeicoPage extends Component {
                                     </ui5-table-cell>
                                     <ui5-table-cell slot="cells-5">
                                         <ui5-label class="red-color">
-                                            {item.battery}
+                                            {item.battery}%
                                         </ui5-label>
                                     </ui5-table-cell>
                                     <ui5-table-cell slot="cells-6">
