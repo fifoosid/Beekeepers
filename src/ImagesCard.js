@@ -35,14 +35,23 @@ class ImagesCard extends Component {
     }
 
     componentDidMount() {
-        setInterval(() => {
-            this.setState(oldState => {
-                return {
-                    ...oldState,
-                    selectedIndex: oldState.selectedIndex === 2 ? 0 : oldState.selectedIndex + 1
-                }
-            });
-        }, 3000);
+        this.setState(oldState => {
+            return {
+                ...oldState,
+                updateCallback: setInterval(() => {
+                    this.setState(oldState => {
+                        return {
+                            ...oldState,
+                            selectedIndex: oldState.selectedIndex === 2 ? 0 : oldState.selectedIndex + 1
+                        }
+                    });
+                }, 3000)
+            }
+        })
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.state.updateCallback);
     }
 
     render() {

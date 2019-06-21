@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './Home.css';
-import { ThemeProvider } from '@fiori-for-react/fiori3/lib/ThemeProvider';
-import { Button } from '@fiori-for-react/fiori3/lib/Button';
-import { ObjectPage } from '@fiori-for-react/fiori3/lib/ObjectPage';
-import { ObjectPageSection } from '@fiori-for-react/fiori3/lib/ObjectPageSection';
+import { ThemeProvider } from '@ui5-webcomponents-react/fiori3/lib/ThemeProvider';
+import { Button } from '@ui5-webcomponents-react/fiori3/lib/Button';
+import { ObjectPage } from '@ui5-webcomponents-react/fiori3/lib/ObjectPage';
+import { ObjectPageSection } from '@ui5-webcomponents-react/fiori3/lib/ObjectPageSection';
 
 import "@ui5/webcomponents/dist/Table";
 import "@ui5/webcomponents/dist/TableRow";
